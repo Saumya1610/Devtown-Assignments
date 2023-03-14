@@ -31,17 +31,18 @@
               display: flex;
             }
             
-            /* Create three equal columns that sits next to each other */
+            
             .column {
               flex: 34%;
               padding: 5px;
             }
             footer {
                  text-align: center;
-                 padding:auto;
+                 padding:0%;
                  background-color: #1a252e;
                  font: #000;
                  color: white;
+                 float:inherit;
 }
             </style>
     </head>
@@ -54,15 +55,14 @@
             <a href="About.html" style="float: right;">Saumya</a>
           </div>
           <br>
+          <h3 style="color: #ddd; font: sans-serif;"><b>Top Series</b></h3>
+          <img width="1500px" height="500px" src="https://upload.wikimedia.org/wikipedia/en/b/b7/Happy_Family_Conditions_Apply_poster.jpg">
           <h3 style="color: #ddd; font: sans-serif;"><b>Continue Watching</b></h3>
           <div class="row">
             <div class="column">
-                <iframe style="width:auto;" src="https://www.youtube.com/embed/rCj-Fb1OmXg" title="The Big Bang Theory " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe style="width:auto; float: left;" src="https://www.youtube.com/embed/rCj-Fb1OmXg" title="The Big Bang Theory " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-            <div class="column">
-                <iframe style="width: fit-content;"  src="https://www.youtube.com/embed/jerFRSQW9g8" title="Rick and Morty" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>  
-          </div>  
+          </div> 
            <h3 style="color: #ddd; font: sans-serif;"><b>Recommended Movies</b></h3>
         <div class="row">
             <div class="column">
@@ -101,11 +101,13 @@
           <br>
           <footer>
             <ul>
-                <li><a href="/ww-av-legal-home/ref=atv_ftr_ter" class="_1NNx6V">Terms and Privacy Notice</a></li>
-                <li><a href="/contactus/ref=atv_ftr_cu" class="_1NNx6V">Send us feedback</a></li>
-                <li><a href="/help/ref=atv_ftr_hp" class="_1NNx6V">Help</a></li>
-                <li>© 1996-2023, Amazon.com, Inc. or its affiliates</li>
+                <pre>
+                <a href="/ww-av-legal-home/ref=atv_ftr_ter" class="_1NNx6V" style="color: #f2f2f2;">Terms and Privacy Notice</a>
+                <a href="/contactus/ref=atv_ftr_cu" class="_1NNx6V" style="color: #f2f2f2;">Send us feedback</a>
+                <a href="/help/ref=atv_ftr_hp" class="_1NNx6V" style="color: #f2f2f2;">Help</a>
+                <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
             </ul>
+        </pre>
         </footer>
          
     </body>
